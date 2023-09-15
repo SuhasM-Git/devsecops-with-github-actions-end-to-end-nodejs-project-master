@@ -21,6 +21,7 @@ jobs:
         args: >
           -Dsonar.organization=devsecopsgithubactionsnodejsproject
           -Dsonar.projectKey=devsecopsganodejsprojectkey
+          -X  # Enable debug logging
   security:
     runs-on: ubuntu-latest
     #needs: build
