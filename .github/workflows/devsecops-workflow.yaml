@@ -20,7 +20,7 @@ jobs:
       with:
         args: >
           -Dsonar.organization=ProjectSonar1
-          -Dsonar.projectKey=projectsonar1_projectsonar1
+          -Dsonar.projectKey=projectsonar1
   security:
     runs-on: ubuntu-latest
     needs: build
